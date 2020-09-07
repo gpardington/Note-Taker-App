@@ -8,13 +8,12 @@ var PORT = process.env.PORT || 8080;
 //Configure data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+//Give access to public folder from front end
+app.use(express.static('public'));
 
 //Routing
 require("./routes/apiRoutes.js")(app);
 require("./routes/htmlRoutes.js")(app);
-
-//Give access to public folder from front end
-app.use(express.static('public'));
 
 //Listener - Starts Server
 app.listen(PORT, function() {
