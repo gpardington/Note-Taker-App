@@ -7,7 +7,7 @@ var PORT = process.env.PORT || 8080;
 
 //Configure data parsing
 app.use(express.urlencoded({ extended: true }));
-app.use(express.JSON());
+app.use(express.json());
 
 //Routing
 require("./routes/apiRoutes.js")(app);

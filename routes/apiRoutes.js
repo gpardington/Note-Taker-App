@@ -1,6 +1,6 @@
 //Declare dependencies and file manipulation
 let db = require("../db/db.json");
-const fs = require("fs");
+const fs = require('fs');
 
 //Functions
 //re-index data array
@@ -23,7 +23,7 @@ function reindexDB(dbArray){
 //API get requests and routing
 module.exports = function(app) {
     app.get("/api/notes", function(req, res) {
-        res.JSON(db);
+        res.json(db);
       });
     //API post requests
     app.post("/api/notes", function(req, res) {
@@ -36,7 +36,7 @@ module.exports = function(app) {
         //Save db array with new indexes
         writeDB(db);
         //Respond with the new note
-        res.JSON(newNote);
+        res.json(newNote);
     });
 
     //API Delete request route
@@ -50,6 +50,6 @@ module.exports = function(app) {
         //Write newDB array to disk
         writeDB(db);
         //Send response with deleted note
-        res.JSON(deletedNote);    
+        res.json(deletedNote);    
     });
 };
