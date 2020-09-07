@@ -1,7 +1,5 @@
 //Declare dependencies
 var express = require("express");
-var path = require("path");
-const fs = require('fs');
 
 //Set up the Express app and declare the port
 var app = express ();
@@ -16,7 +14,7 @@ app.use(express.static('public'));
 
 //Routing
 require("./routes/apiRoutes.js")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/htmlRoutes.js")(app);
 
 //Listener - Starts Server
 app.listen(PORT, function() {
