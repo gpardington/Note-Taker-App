@@ -58,11 +58,11 @@ Grant Pardington
 
 ### Images
 
-
+![home](https://github.com/gpardington/Note-Taker-App/blob/master/demo/Screen%20Shot%202020-09-08%20at%2010.57.15%20PM.png)
 
 ### Demo
 
-
+![home](https://github.com/gpardington/Note-Taker-App/blob/master/demo/Animated%20GIF-downsized_large.gif)
 
 #### CopyRight
 
