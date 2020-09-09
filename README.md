@@ -33,7 +33,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 No installation required. Just visit the Heroku deployed link listed above.
 
-If you want to run this application locally, you can fork this repository to your local machine. Once all of the code is pulled up, run "node server.js" in the integrated terminal. Then you will visit "localhost:8080" in your browser to view the application.
+If you want to run this application locally, you can fork this repository to your local machine. Once all of the code is pulled up, run "npm i" in the integrated terminal to install everything, and then once that is done, run "node server.js" in the integrated terminal. Then you will visit "localhost:8080" in your browser to view the application.
 
 ### Dependencies
 
@@ -46,7 +46,7 @@ If you want to run this application locally, you can fork this repository to you
 If you have any questions, feel free to contact me:
  [GitHub](https://github.com/gpardington) 
  
- Email: [grant.pardington@gmail.com](mailto:grant.pardington@gmail.com); 
+ Email: [grant.pardington@gmail.com](mailto:grant.pardington@gmail.com)
 
 ### Contributors
 
@@ -54,7 +54,6 @@ Grant Pardington
 
 ### Licence
 
-This project is licensed under the MIT License
 ![npm](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
 
 ### Images
@@ -67,4 +66,4 @@ This project is licensed under the MIT License
 
 #### CopyRight
 
-Copyright 2020 &copy; Grant Pardington
+Grant Pardington 2020 &copy; 
